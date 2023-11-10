@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section2{
+    background: url(./../images/about.png);
+    background-repeat: no-repeat;  
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    padding: 46px 70px;
+}
+.section2 .text_section2{
+    width: 600px;
+}
+.section2 .text_section2 .adress_1{
+    width: 100px;
+color: #7EB693;
+font-family: Yellowtail;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.section2 .text_section2 .adress_2{
+    width: 365px;
+    color: #274C5B;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin: 8px 0px;
+}
+.section2 .text_section2 .text1{
+width: 600px;
+color: #525C60;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; 
+}
+.section2 .text_section2 .text2{
+width: 600px;
+color: #525C60;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; 
+}
+.section2 .text_section2 .container_Dashs2{
+    margin: 20px 0px;
+    display: grid;
+    gap: 30px;
+}
+.section2 .text_section2 .container_Dashs2 .card_Dashs2{
+    width: 493px;
+    display: flex;
+    gap: 20px;
+}
+.section2 .text_section2 .container_Dashs2 .card_Dashs2 .back_img{
+    width: 90px;
+height: 90px; 
+flex-shrink: 0;
+border-radius: 20px;
+background: #FFF;
+position:relative;
+}
+.img_cardS2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.topic_1{
+    color: #274C5B;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.topic_2{
+    width: 450px;
+    margin-top: 14.5px;
+    color: #525C60;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%;
+}
+
+.text_button{
+    width: max-content;
+    color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.button_shop{
+border-radius: 10px;
+background: #274C5B;
+display: flex;
+width: 180px;
+height: 70px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+.section3{
+    padding: 80px 53px;
+    background: #FFF;
+}
+.adress_p1{
+margin-bottom: 5px;
+text-align: center;
+color: #7EB693;
+font-family: Yellowtail;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.adress_p2{
+    margin-bottom: 60px;
+    color: #274C5B;
+text-align: center;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.container_section3{
+width: 92vw;
+}
+.container_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+.section3 .container_section3 .card{
+width: 285px;
+padding: 12px 22px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #F9F8F8;
+display: grid;
+gap: 22px;
+}
+.section3 .container_section3 .card .vege_card{
+display: flex;
+width: 80px;
+height: 30px;
+padding: 5px 12px 6px 12px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #274C5B;
+}
+.section3 .container_section3 .card .Vegetable{
+color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.section3 .container_section3 .card .name_Vegetable{
+color: #274C5B;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+flex-shrink: 0;
+margin-bottom: 13px;
+}
+.section3 .container_section3 .card .tow_span{
+display: flex;
+gap: 10px;
+}
+.section3 .container_section3 .card .container_text .old_price{
+color: #B8B8B8;
+text-align: center;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.section3 .container_section3 .card .container_text .new_price{
+color: #274C5B;
+text-align: center;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.end_card{
+padding: 4px 0;
+border-top: 1px solid #DEDDDD;
+display: flex;
+justify-content: space-between;
+}
+.section4{
+padding: 70px 0px;
+background: #274C5B;
+}
+.Offer{
+color: #7EB693;
+font-family: Yellowtail;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Organic{
+color: #FFF;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.text_button_s4{
+width: max-content;
+color: #274C5B;;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.button_shop_s4{
+border: none;
+border-radius: 10px;
+background: #EFD372;;
+display: flex;
+width: 180px;
+height: 70px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+.topic_sec4{
+padding: 0px 70px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 70px;
+}
+.section4 .container_cards .card{
+background: #FFFFFF;
+}
+
+
+.section4 .container_cards .card{
+width: 285px;
+padding: 12px 22px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFFFFF;
+display: grid;
+gap: 22px;
+}
+.section4 .container_cards .card .vege_card{
+display: flex;
+width: 80px;
+height: 30px;
+padding: 5px 12px 6px 12px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #274C5B;
+}
+.section4 .container_cards .card .Vegetable{
+color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.section4 .container_cards .card .name_Vegetable{
+color: #274C5B;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+flex-shrink: 0;
+margin-bottom: 13px;
+}
+.section4 .container_cards .card .tow_span{
+    display: flex;
+    gap: 10px;
+}
+.section4 .container_cards .card .container_text .old_price{
+color: #B8B8B8;
+text-align: center;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.section4 .container_cards .card .container_text .new_price{
+color: #274C5B;
+text-align: center;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section10{
+    padding: 129px 50px;
+}
+.section10 .container_cards{
+width: 92vw;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 28px;
+}
+.section10 .container_cards .card{
+width: 285px;
+padding: 12px 22px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #F9F8F8;
+display: grid;
+gap: 22px;
+}
+.section10 .container_cards .card .vege_card{
+display: flex;
+width: 80px;
+height: 30px;
+padding: 5px 12px 6px 12px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #274C5B;
+}
+.section10 .container_cards .card .Vegetable{
+color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.section10 .container_cards .card .name_Vegetable{
+color: #274C5B;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+flex-shrink: 0;
+margin-bottom: 13px;
+}
+.section10 .container_cards .card .tow_span{
+    display: flex;
+    gap: 10px;
+}
+.section10 .container_cards .card .container_text .old_price{
+    color: #B8B8B8;
+text-align: center;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.section10 .container_cards .card .container_text .new_price{
+    color: #274C5B;
+text-align: center;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.section9{
+    background: #274C5B;
+    padding: 60px 2vw ;
+    margin-top: 80px;
+}
+.card_s9{
+    width:280px ;height:280px ;background: #FFFFFF;display: flex;justify-content: center;
+}
+.text_img{
+    color: #FFF;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 27px;
+}
+.card_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container_img{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+@media screen  and (max-width:657px){
+    .section10{
+        padding: 129px 7px;
+    }
+    .section3{
+        padding: 0px 7px;
+        margin-bottom: 30px;
+    }
+    
+    .section2 .text_section2{
+        width: 400px;
+    }
+    .section2 .text_section2 .adress_1{
+        width: 100px;
+    }
+    .section2 .text_section2 .adress_2{
+        width: 365px;
+    font-size: 25px;
+    }
+    .section2 .text_section2 .text1{
+    width: 380px;
+    font-size: 16px;
+    }
+    .section2 .text_section2 .text2{
+    width: 380px;
+    font-size: 16px;
+    }
+    .section2 .text_section2 .container_Dashs2{
+        width: 380px;
+    }
+    .section2 .text_section2 .container_Dashs2 .card_Dashs2{
+        width: 380px;
+        display: flex;
+        gap: 20px;
+    }
+    .topic_1{
+        width: 200px;
+    font-size: 20px;
+    }
+    .topic_2{
+        width: 270px;
+    font-size: 14px;
+    }
+}
+@media screen  and (max-width:747px) {
+    .section2{
+        padding:46px 0px;
+    }
+    .topic_sec4{
+        flex-wrap: wrap;
+
+    }
+    .button_shop_s4{
+        margin-top: 10px;
+    }
+    .Organic{
+        font-size: 20px;
+    }
+}
+@media screen  and (max-width:410px){
+
+    .section2 .text_section2{
+        width: 300px;
+    }
+    .section2 .text_section2 .adress_1{
+        width: 100px;
+    }
+    .section2 .text_section2 .adress_2{
+        width: 290px;
+    font-size: 25px;
+    }
+    .section2 .text_section2 .text1{
+    width: 300px;
+    font-size: 16px;
+    }
+    .section2 .text_section2 .text2{
+    width: 300px;
+    font-size: 16px;
+    }
+    .section2 .text_section2 .container_Dashs2{
+        width: 300px;
+    }
+    .section2 .text_section2 .container_Dashs2 .card_Dashs2{
+        width: 300px;
+        display: flex;
+        gap: 20px;
+    }
+    .section2 .text_section2 .container_Dashs2 .card .back_img{
+        width: 60px;
+        height: 60px;
+    }
+    .topic_1{
+        width: 150px;
+    font-size: 16px;
+    }
+    .topic_2{
+        width: 180px;
+    font-size: 10px;
+    }
+    .button_shop{
+        width: 150px;
+        height: 65px;
+        }
+}
